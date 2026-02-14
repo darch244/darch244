@@ -35,9 +35,6 @@
 
 ---
 
-##  Tools I Use
-
----
 
 ##  Platforms
 - TryHackMe
