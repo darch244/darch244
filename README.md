@@ -36,3 +36,17 @@
 ---
 
 ##  Tools I Use
+
+---
+
+##  Platforms
+- TryHackMe
+- HackerOne
+- Bugcrowd
+
+---
+
+##  Contact Me
+- LinkedIn: https://linkedin.com/in/mostafa-ibrahim-60b543341
+- Email: himadarch@gmail.com
+
