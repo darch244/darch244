@@ -12,89 +12,102 @@
 
 ### Professional Summary
 
-Offensive Security Engineer specializing in penetration testing, Active Directory security assessments, and adversary simulation workflows. Experienced in analyzing complex enterprise network architectures, identifying logical vulnerabilities, and mapping attack surfaces from an attacker's perspective. Proficient in web application security auditing, advanced reconnaissance automation, and targeted access control evaluations. Actively engaged in responsible vulnerability disclosure with formal acknowledgments and placements on international corporate Halls of Fame for identifying high-severity logical flaws.
+Offensive Security Engineer focused on penetration testing, Active Directory security assessments, and adversary emulation in enterprise environments. Experienced in identifying attack paths across complex infrastructures, analyzing authentication and authorization flaws, and developing automation tools for large-scale reconnaissance and vulnerability discovery.
 
-- **Education:** Bachelor of Computer Science (IT Department) @ Faculty of Computers and Artificial Intelligence, Cairo University (Expected 2026).
-- **Core Focus:** Active Directory Attack Paths, Enterprise Infrastructure Hardening, Business Logic Auditing, and Tool Automation.
+- **Core Focus:** Active Directory security, enterprise attack paths, and web application security auditing.
+- **Approach:** Manual-first testing supported by automation and custom security tooling.
+- **Education:** B.Sc. Computer Science (IT) — Faculty of Computers and Artificial Intelligence, Cairo University (Expected 2026).
 
 ---
 
 ### Current Focus & Research
 
-- **Active Directory Exploitation:** Investigating advanced internal domain trust relationships, multi-forest attack vectors, and stealth persistence mechanisms.
-- **Authentication Flaws:** Analyzing modern authorization handlers, token handling vulnerabilities within OAuth/SAML environments, and GraphQL schema manipulation.
-- **Recon Automation:** Engineering distributed asset discovery architectures optimized for continuous monitoring and rapid attack surface exposure.
+- **Active Directory:** Internal domain attack paths including Kerberoasting, AS-REP Roasting, NTLM relaying, and domain privilege escalation.
+- **Authentication Frameworks:** Detailed analysis of OAuth / SAML authentication and authorization flaws.
+- **API Security:** GraphQL security testing, schema introspection, and query manipulation analysis.
+- **Reconnaissance:** Attack surface mapping and continuous asset discovery automation workflows.
 
 ---
 
-### Industry Certifications
+### Methodology
 
-- **CompTIA Security+** — Validation of baseline security engineering, infrastructure defense principles, and core risk management baselines.
-- **CompTIA Network+** — Verification of enterprise networking competencies, architecture implementations, and traffic analysis.
-- **CCNA** (Cisco Certified Network Associate) — Practical mastery of core routing, switching, IP connectivity, and infrastructure protocols.
-- **CEH** (Certified Ethical Hacker) — Comprehensive understanding of foundational ethical hacking methodologies and scanning vectors.
-
----
-
-### Advanced Training & Coursework
-
-- **CRTP Training** (*Altered Security / Udemy*) — Intensive training focused on Active Directory enumeration, Kerberoasting, AS-REP Roasting, and domain controller compromise.
-- **OSEP Coursework** (*Offensive Security*) — Advanced study mapping to complex infrastructure evasion, post-exploitation processes, and multi-layered network penetration testing.
-- **OSCP-Level Labs & Practice** (*OffSec PEN-200 Mapped*) — Hands-on exploitation of diverse network targets, privilege escalation, and thorough documentation workflows.
-- **Web Security Deep Dive** (*PortSwigger Academy*) — Focused lab execution addressing complex access control bypasses, business logic gaps, and server-side vulnerabilities.
-- **Additional Studies:** Mobile Application Penetration Testing, Advanced Linux for Security Professionals, and OS-Specific Privilege Escalation.
+- Adversary emulation and security control validation in enterprise environments.
+- Manual penetration testing paired with tactical automation support.
+- Comprehensive attack chain mapping from initial access through horizontal and vertical privilege escalation.
+- Continuous reconnaissance pipelines and systematic vulnerability verification.
 
 ---
 
-### Technical Skills & Competencies
+### Industry Recognition
 
-- **Penetration Testing & Red Teaming:** Active Directory Enumeration, NTLM Relaying, Credential Harvesting, Lateral Movement, Local/Domain Privilege Escalation, and Attack Chain Simulation.
-- **Web Application Security:** OWASP Top 10 Auditing, Broken Access Control (IDOR), Information Disclosure, Business Logic Audits, and GraphQL Introspection.
-- **Infrastructure & Admin:** TCP/IP Protocols, Routing & Switching, VLAN Segmentation, Windows Server Management, Active Directory GPO Implementation, and Linux Systems Administration.
-- **Programming & Scripting:** Tool development and process automation using Python, Bash Scripting, and C++.
-- **Offensive Security Tools:** Burp Suite Professional, Nmap, Nuclei, Metasploit, BloodHound, CrackMapExec, NetExec, Impacket, Responder, Wireshark, ffuf, httpx, katana, and gobuster.
+- **[TU Delft Hall of Fame](https://www.tudelft.nl/en/hall-of-fame):** Formally recognized for identifying and responsibly reporting a critical Broken Access Control vulnerability.
+- **[Mindtickle Security Hall of Fame](https://www.mindtickle.com/security/vulnerability-disclosure/):** Listed on the official acknowledgment board for verified access control and sensitive information disclosure findings.
+
+---
+
+### Certifications
+
+- **CompTIA Security+** — Validation of core security engineering and infrastructure defense principles.
+- **CompTIA Network+** — Verification of enterprise network operations, management, and troubleshooting.
+- **Cisco CCNA** — Practical mastery of core routing, switching, and network infrastructure connectivity.
+- **Certified Ethical Hacker (CEH)** — Foundation in ethical hacking methods and common vulnerability assessment vectors.
+
+---
+
+### Training & Coursework
+
+- **CRTP (Certified Red Team Professional):** Active Directory exploitation, domain enumeration, and trust relationship escalation techniques.
+- **OSEP Coursework:** Advanced penetration testing, evasion methods, and post-exploitation processes.
+- **OSCP-Level Labs:** Intensive practical exploitation, local/domain privilege escalation, and professional reporting workflows.
+- **PortSwigger Web Security Academy:** Practitioner track covering advanced server-side access control vulnerabilities and client-side logical flaws.
+- **Additional Studies:** Linux security, mobile security testing, and platform-specific privilege escalation labs.
+
+---
+
+### Technical Skills
+
+- **Red Teaming & Active Directory:** Domain Enumeration, Kerberoasting, AS-REP Roasting, NTLM Relay, Credential Access, Lateral Movement, Privilege Escalation, Persistence Techniques.
+- **Web & API Security:** OWASP Top 10, IDOR, Broken Access Control, Business Logic Flaws, OAuth/SAML Security, GraphQL Testing.
+- **Infrastructure & Networking:** TCP/IP Protocols, Routing & Switching, VLAN Segmentation, Windows Server, Active Directory GPO, Linux Administration.
+- **Programming & Automation:** Python, Bash, C++, Security Tool Development, Recon Automation Pipelines.
+- **Tools Stack:** Burp Suite, Nmap, Nuclei, Metasploit, BloodHound, Impacket, Responder, NetExec, Wireshark, ffuf, httpx, katana, gobuster.
 
 ---
 
 ### Professional Experience
 
 **IT & Network Trainee** | Masrawy ONA — Giza, Egypt *(May 2025 – July 2025)*
-- Participated directly in enterprise IT and network infrastructure operations within a high-traffic production environment.
-- Worked extensively with corporate TCP/IP configurations, enterprise-grade routing, core switching, subnet allocation, and custom VLAN isolation profiles.
-- Gained hands-on administrative experience in Windows Server environments, focusing on Active Directory user hierarchies, Group Policy Objects (GPOs), and domain authentication flows.
-- Assisted engineering teams in deploying high-availability network services, isolating hardware/software incidents, and monitoring live network performance metrics.
+- Worked directly within an enterprise network infrastructure production environment.
+- Configured and analyzed corporate TCP/IP routing, custom VLAN segmentation, and subnet design.
+- Assisted in Windows Server administration, Active Directory user hierarchies, and Group Policy Object (GPO) management.
+- Observed and supported enterprise network monitoring tools and high-availability architecture systems.
 
 ---
 
-### Featured Security Projects & Research
+### Featured Projects
 
 #### 🛰️ [Automated Reconnaissance Framework](https://github.com/darch244/Recon-Framework)
-- Engineered a scalable, multi-threaded Bash and Python infrastructure designed for automated asset discovery, subdomain harvesting, and continuous attack surface mapping.
-- Integrated automated vulnerability scanning pipelines that chain industry-standard tools including `httpx`, `katana`, `waybackurls`, and `nuclei`.
-- Implemented state synchronization workflows leveraging dedicated virtual private servers (VPS) for structured data handling across large-scale target scopes.
+- Built a modular reconnaissance pipeline optimized for scalable asset discovery and continuous attack surface mapping.
+- Integrated industry-standard tools including `httpx`, `katana`, `waybackurls`, and `nuclei` into a synchronized workflow.
+- Designed architecture for reliable, distributed execution across cloud-based VPS environments.
 
-#### 🌲 [Active Directory Threat Simulation Lab](https://github.com/darch244/AD-Simulation-Lab)
-- Built and managed a dedicated multi-forest enterprise sandbox architecture replicating corporate environments to validate active security controls.
-- Simulated sophisticated internal threat vectors, executing and documenting multi-stage attack loops targeting Kerberoasting, AS-REP Roasting, NTLM relaying, and domain controller escalation.
-- Conducted exhaustive privilege escalation testing across nested groups and analyzed audit log telemetry to identify attack signatures.
+#### 🌲 [Active Directory Simulation Lab](https://github.com/darch244/AD-Simulation-Lab)
+- Built a dedicated multi-forest Active Directory lab environment optimized for enterprise attack simulation.
+- Practiced corporate attack vectors including Kerberoasting, AS-REP Roasting, and NTLM relaying scenarios.
+- Studied complex internal privilege escalation paths, nested groups, and domain trust relationships.
 
-#### 🌐 [Advanced Web Security & Vulnerability Research](https://github.com/darch244/Vulnerability-Research)
-- Executed targeted security assessments against modern web architectures, API endpoints, and microservices.
-- Specialized in the analysis of authentication handlers, focusing on token manipulation within OAuth environments and query logic analysis via GraphQL schema introspection.
-- Conducted extensive manual logic validation resulting in the identification of severe access control flaws and unauthorized horizontal/vertical data enumeration.
-
-#### 🏆 [Vulnerability Disclosure & Responsible Research](https://github.com/darch244/Vulnerability-Research)
-- Responsibly identified, documented, and disclosed high-severity security vulnerabilities to major target environments.
-- **[TU Delft Hall of Fame](https://www.tudelft.nl/en/hall-of-fame):** Formally recognized and listed by the Technical University of Delft for uncovering a critical Broken Access Control bug.
-- **[Mindtickle Security Hall of Fame](https://www.mindtickle.com/security/vulnerability-disclosure/):** Secured listing on the official security acknowledgment board for identifying separate Broken Access Control and Information Disclosure flaws.
+#### 🌐 [Web Security & Vulnerability Research](https://github.com/darch244/Vulnerability-Research)
+- Performed manual security testing on modern web applications, production APIs, and identity verification endpoints.
+- Focused heavily on core authentication flows, token handling, and authorization logic flaws.
+- Identified, validated, and documented severe access control vulnerabilities leading to responsible corporate disclosure.
 
 ---
 
-### Security Platforms & Labs
+### Security Platforms & Active Labs
 
-- **PortSwigger Web Security Academy:** Advanced Practitioner tracks solving complex server-side and client-side web application challenges.
-- **TryHackMe:** Active completion of Red Team, Active Directory, and Web Security learning paths.
-- **Hack The Box:** Practical exploitation of active machines and stand-alone challenges mimicking modern corporate assets.
+- **PortSwigger Web Security Academy:** Advanced practitioner tracks solving complex logic and access control labs.
+- **TryHackMe:** Completion of specialized Red Team, Active Directory, and Web Security learning paths.
+- **Hack The Box:** Practical exploitation of live machine challenges mimicking modern enterprise assets.
 
 ---
 
@@ -103,4 +116,7 @@ Offensive Security Engineer specializing in penetration testing, Active Director
 - **Email:** himadarch@gmail.com
 - **LinkedIn:** [mostafa-ibrahim-60b543341](https://linkedin.com/in/mostafa-ibrahim-60b543341)
 - **HackerOne:** [darch244](https://hackerone.com/darch244)
-- **Availability:** Open to Junior Red Team, Penetration Tester, or Security Researcher positions.
+- **Open to:** Junior Red Team / Penetration Testing / Security Research roles.
+
+---
+🎯 *“Understanding how systems break is the first step to learning how to secure them.”*
