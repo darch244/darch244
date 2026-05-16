@@ -1,50 +1,41 @@
 # Hi 👋, I'm Mostafa Ibrahim 🎯
-### 🚀 Red Team Operator & Offensive Security Engineer
+### 🚀 Offensive Security Engineer | Red Team Operator
 
 <p align="center">
   <a href="https://linkedin.com/in/mostafa-ibrahim-60b543341"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://hackerone.com/mostafa244"><img src="https://img.shields.io/badge/HackerOne-000000?style=for-the-badge&logo=hackerone&logoColor=white" alt="HackerOne"></a>
+  <a href="https://hackerone.com/darch244"><img src="https://img.shields.io/badge/HackerOne-000000?style=for-the-badge&logo=hackerone&logoColor=white" alt="HackerOne"></a>
   <a href="https://tryhackme.com/p/Darch244"><img src="https://img.shields.io/badge/TryHackMe-3F3F3F?style=for-the-badge&logo=tryhackme&logoColor=red" alt="TryHackMe"></a>
 </p>
 
 ---
 
-### 🛡️ Executive Profile & Professional Summary
+### 🛡️ Professional Summary
 
-An offensive-minded Cyber Security Professional specializing in **Advanced Penetration Testing**, **Active Directory Exploitation**, and **Red Team Simulation Workflows**. Experienced in analyzing corporate network architectures, identifying complex logical flaws, and systematically mapping attack surfaces from an adversary's perspective. 
+Offensive Security Engineer specializing in penetration testing, Active Directory security assessments, and red team simulations. Experienced in identifying attack paths in enterprise environments, analyzing authorization mechanisms, and building automation tools for reconnaissance and vulnerability research. Actively engaged in responsible vulnerability disclosure with formal acknowledgments from international organizations.
 
-Passionate about security research and bug bounty hunting, with a proven track record of responsibly disclosing high-severity vulnerabilities to international organizations. Proficient in developing custom automation tooling for large-scale asset reconnaissance, multi-stage authorization bypasses, and tactical privilege escalation.
-
-- ⚡ **Primary Directives:** Active Directory Attack Paths, Enterprise Network Hardening, Business Logic Auditing, and Automated Reconnaissance Frameworks.
-- 🎓 **Academic Foundation:** Bachelor of Computer Science (IT Department) @ Faculty of Computers and Artificial Intelligence, Cairo University 🏛️
-- 🏅 **Industry Acknowledgments:** Formally listed on prestigious security recognition boards including the **TU Delft Hall of Fame** 🏆 & **Mindtickle Security Hall of Fame** 📜.
+- 🎓 **Education:** Bachelor of Computer Science (IT Department) @ Faculty of Computers and Artificial Intelligence, Cairo University 🏛️
+- 🏅 **Vulnerability Research:** Officially listed on the **TU Delft Hall of Fame** 🏆 & **Mindtickle Security Hall of Fame** 📜.
 
 ---
 
-### 🧠 Core Competencies & Methodologies
+### 🧪 Current Focus
 
-<table>
-  <tr>
-    <td align="center" width="220"><strong>Red Teaming & Internal AD</strong></td>
-    <td>Domain Enumeration 🌲 • Kerberoasting & AS-REP Roasting 🏹 • NTLM Relaying 🔄 • Credential Harvesting 🗄️ • Lateral Movement 🏃‍♂️ • Local & Domain Privilege Escalation 🔼 • Persistence Mechanisms 🛠️</td>
-  </tr>
-  <tr>
-    <td align="center" width="220"><strong>Web Application Security</strong></td>
-    <td>OWASP Top 10 Auditing 🌐 • Insecure Direct Object References (IDOR) 🔑 • Broken Access Control 🛡️ • Information Disclosure Flaws 📂 • OAuth & SAML Authentication Bypasses 🎟️ • GraphQL Schema Introspection 🛰️</td>
-  </tr>
-  <tr>
-    <td align="center" width="220"><strong>Infrastructure & Networking</strong></td>
-    <td>TCP/IP Architecture 🌐 • Core Routing & Switching 🎛️ • VLAN Segmentation & Isolation 🔀 • Subnetting & Network Traffic Analysis 📊 • Windows Server & Linux Systems Administration 🐧</td>
-  </tr>
-  <tr>
-    <td align="center" width="220"><strong>Automation & Engineering</strong></td>
-    <td>Python Security Tooling 🐍 • Bash Scripting for Recon Automation 🐚 • C++ Systems Programming ⚙️ • Git Workflow & Configuration Management 🐙</td>
-  </tr>
-</table>
+- 🌲 Advanced Active Directory attack path research & mitigation.
+- 🎟️ OAuth / SAML authentication bypass analysis.
+- 🛰️ Large-scale reconnaissance and attack surface mapping automation.
 
 ---
 
-### 🧰 Technical Arsenal & Offensive Tools
+### 🧠 Core Competencies
+
+- **Red Teaming & Active Directory:** Domain Enumeration, Kerberoasting, AS-REP Roasting, NTLM Relaying, Credential Harvesting, Lateral Movement, Privilege Escalation.
+- **Web Application Security:** OWASP Top 10, Broken Access Control (IDOR), Information Disclosure, Business Logic Auditing, GraphQL Introspection.
+- **Infrastructure & Admin:** TCP/IP Networking, Routing & Switching, VLAN Segmentation, Windows Server & Linux Systems Administration.
+- **Automation & Scripting:** Security Tooling Development using Python and Bash, Git Workflows.
+
+---
+
+### 🧰 Technical Arsenal & Tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
@@ -57,26 +48,23 @@ Passionate about security research and bug bounty hunting, with a proven track r
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
-> **Active Ecosystems Utilized:** `BloodHound` | `CrackMapExec` | `NetExec` | `Impacket` | `Responder` | `Wireshark` | `ffuf` | `httpx` | `katana` | `gobuster` | `nuclei`
+> **Ecosystem Experience:** `BloodHound` | `NetExec` | `Impacket` | `Responder` | `Wireshark` | `ffuf` | `httpx` | `katana` | `nuclei`
 
 ---
 
-### 💻 Deep-Dive Security Projects
+### 💻 Featured Projects & Security Research
 
-#### 🛰️ [Automated Reconnaissance Framework (Recon-to-Cloud)](https://github.com/darch244)
-- Engineered a highly scalable, multi-threaded Bash and Python infrastructure designed for continuous asset discovery and attack surface mapping.
-- Implemented automated passive/active subdomain harvesting, live port probing, and URL gathering by seamlessly chaining tools like `httpx`, `katana`, `waybackurls`, and `nuclei`.
-- Integrated automated state synchronization with dedicated cloud VPS environments to handle massive-scale data management pipelines.
+#### 🛰️ [Automated Reconnaissance Framework](https://github.com/darch244/Recon-Framework)
+- Developed custom Bash and Python workflows for automated asset discovery, subdomain harvesting, and attack surface mapping.
+- Integrated modular pipelines utilizing `httpx`, `katana`, and `nuclei` for efficient multi-threaded vulnerability identification.
 
-#### 🌲 [Enterprise Active Directory Threat Simulation Lab](https://github.com/darch244)
-- Designed and deployed a multi-forest enterprise sandbox architecture replicating real-world corporate Active Directory environments.
-- Simulated advanced modern threat vectors, practicing sophisticated multi-layered domain compromises involving identity federation exploitation, token manipulation, and misconfigured Group Policy Objects (GPOs).
-- Documented complex attack paths involving domain-wide lateral movement and stealth persistence execution.
+#### 🌲 [Active Directory Threat Simulation Lab](https://github.com/darch244/AD-Simulation-Lab)
+- Built a dedicated multi-forest sandbox architecture replicating corporate Active Directory environments to analyze internal misconfigurations.
+- Simulated security testing workflows targeting Kerberoasting, AS-REP Roasting, and credential extraction methodologies.
 
-#### 🌐 [Advanced Web Vulnerability Research & Analysis](https://github.com/darch244)
-- Conducted deep architectural evaluations against modern web applications, APIs, and microservices.
-- Specialized in the analysis of authentication handlers, focusing on token flaws within OAuth/SAML environments and query manipulation via GraphQL schema introspection.
-- Successfully built custom test cases targeting severe business logic gaps, parameters poisoning, and unauthorized vertical/horizontal access enumeration.
+#### 🌐 [Web Application Security Research](https://github.com/darch244/Vulnerability-Research)
+- Conducted targeted architectural evaluations against modern web applications, focusing on token handling within OAuth environments and GraphQL schema analysis.
+- Responsibly reported validated vulnerabilities—specifically **Broken Access Control (IDOR)**—resulting in placements on international corporate Halls of Fame.
 
 ---
 
@@ -93,4 +81,11 @@ Passionate about security research and bug bounty hunting, with a proven track r
 
 ---
 
-🎯 *“To secure a network, you must first learn to think, navigate, and strike like the adversary.”*
+### 📫 Contact & Open to Work
+
+- 📧 **Email:** himadarch@gmail.com
+- 💼 **Open to:** Junior Red Team / Penetration Tester / Security Researcher Roles
+- 🌐 **Professional Profile:** [LinkedIn](https://linkedin.com/in/mostafa-ibrahim-60b543341)
+
+---
+🎯 *“Securing infrastructure by systematically adopting the adversary's perspective.”*
