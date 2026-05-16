@@ -12,11 +12,17 @@
 
 ### Professional Summary
 
-Offensive Security Engineer focused on penetration testing, Active Directory security assessments, and adversary emulation in enterprise environments. Experienced in identifying attack paths across complex infrastructures, analyzing authentication and authorization flaws, and developing automation tools for large-scale reconnaissance and vulnerability discovery.
+Offensive Security Engineer focused on penetration testing, Active Directory security assessments, and adversary emulation in enterprise environments. Experienced in identifying attack paths across complex infrastructures, analyzing authentication and authorization flaws, and developing automation tools for large-scale reconnaissance and vulnerability discovery. Focused on identifying high-impact security vulnerabilities in enterprise and bug bounty environments.
 
 - **Core Focus:** Active Directory security, enterprise attack paths, and web application security auditing.
 - **Approach:** Manual-first testing supported by automation and custom security tooling.
 - **Education:** B.Sc. Computer Science (IT) — Faculty of Computers and Artificial Intelligence, Cairo University (Expected 2026).
+
+---
+
+### Current Objective
+
+Seeking opportunities in Red Teaming, Penetration Testing, or Security Research roles with a dedicated focus on enterprise environments, vulnerability discovery, and adversary simulation workflows.
 
 ---
 
@@ -66,11 +72,11 @@ Offensive Security Engineer focused on penetration testing, Active Directory sec
 
 ### Technical Skills
 
-- **Red Teaming & Active Directory:** Domain Enumeration, Kerberoasting, AS-REP Roasting, NTLM Relay, Credential Access, Lateral Movement, Privilege Escalation, Persistence Techniques.
-- **Web & API Security:** OWASP Top 10, IDOR, Broken Access Control, Business Logic Flaws, OAuth/SAML Security, GraphQL Testing.
-- **Infrastructure & Networking:** TCP/IP Protocols, Routing & Switching, VLAN Segmentation, Windows Server, Active Directory GPO, Linux Administration.
-- **Programming & Automation:** Python, Bash, C++, Security Tool Development, Recon Automation Pipelines.
-- **Tools Stack:** Burp Suite, Nmap, Nuclei, Metasploit, BloodHound, Impacket, Responder, NetExec, Wireshark, ffuf, httpx, katana, gobuster.
+- **Red Teaming & Active Directory:** Domain Enumeration • Kerberoasting • AS-REP Roasting • NTLM Relay • Credential Access • Lateral Movement • Privilege Escalation • Persistence Techniques
+- **Web & API Security:** OWASP Top 10 • IDOR • Broken Access Control • Business Logic Flaws • OAuth/SAML Security • GraphQL Testing
+- **Infrastructure & Networking:** TCP/IP Protocols • Routing & Switching • VLAN Segmentation • Windows Server • Active Directory GPO • Linux Administration
+- **Programming & Automation:** Python • Bash • C++ • Security Tool Development • Recon Automation Pipelines
+- **Tools Stack:** Burp Suite • Nmap • Nuclei • Metasploit • BloodHound • Impacket • Responder • NetExec • Wireshark • ffuf • httpx • katana • gobuster
 
 ---
 
@@ -87,7 +93,7 @@ Offensive Security Engineer focused on penetration testing, Active Directory sec
 ### Featured Projects
 
 #### 🛰️ [Automated Reconnaissance Framework](https://github.com/darch244/Recon-Framework)
-- Built a modular reconnaissance pipeline optimized for scalable asset discovery and continuous attack surface mapping.
+- Built a modular reconnaissance pipeline optimized for scalable asset discovery and attack surface mapping.
 - Integrated industry-standard tools including `httpx`, `katana`, `waybackurls`, and `nuclei` into a synchronized workflow.
 - Designed architecture for reliable, distributed execution across cloud-based VPS environments.
 
@@ -119,4 +125,4 @@ Offensive Security Engineer focused on penetration testing, Active Directory sec
 - **Open to:** Junior Red Team / Penetration Testing / Security Research roles.
 
 ---
-🎯 *“Understanding how systems break is the first step to learning how to secure them.”*
+🎯 *“Understanding how systems break is the foundation of securing them.”*
