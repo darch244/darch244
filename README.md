@@ -1,6 +1,6 @@
 # Mostafa Ibrahim Abdelaziz
 
-### Cyber Security Engineer | Red Team Operator | Penetration Tester
+### Cyber Security Engineer | Red Team Operator | Offensive Tooling Developer
 
 <p align="center">
   <a href="https://linkedin.com/in/mostafa-ibrahim-60b543341">
@@ -9,11 +9,11 @@
   <a href="https://github.com/darch244">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <a href="https://bugcrowd.com/">
-    <img src="https://img.shields.io/badge/Bugcrowd-F26822?style=flat-square&logo=bugcrowd&logoColor=white" alt="Bugcrowd">
-  </a>
   <a href="https://hackerone.com/darch244">
     <img src="https://img.shields.io/badge/HackerOne-000000?style=flat-square&logo=hackerone&logoColor=white" alt="HackerOne">
+  </a>
+  <a href="https://bugcrowd.com/">
+    <img src="https://img.shields.io/badge/Bugcrowd-F26822?style=flat-square&logo=bugcrowd&logoColor=white" alt="Bugcrowd">
   </a>
   <a href="https://tryhackme.com/p/Darch244">
     <img src="https://img.shields.io/badge/TryHackMe-3F3F3F?style=flat-square&logo=tryhackme&logoColor=red" alt="TryHackMe">
@@ -24,331 +24,119 @@
 
 ## Professional Summary
 
-Offensive Security Engineer with hands-on experience in **Web Application Security, Active Directory Security, and enterprise attack simulation**.
+Offensive Security Engineer specializing in **Enterprise Penetration Testing, Active Directory Security, and AI/LLM Red Teaming**.
 
-Skilled in adversary emulation using **Command and Control (C2) frameworks, credential attacks, privilege escalation, lateral movement, and defense evasion** across Windows enterprise environments.
+Experienced in adversary emulation, privilege escalation, lateral movement across Windows enterprise domains, and modern application attack surfaces. Creator of production-grade offensive tooling, automated reconnaissance pipelines, and adversarial testing frameworks.
 
-Recognized bug bounty researcher with **Hall of Fame acknowledgments from TU Delft and Mindtickle** for responsible disclosure of security vulnerabilities, including Broken Access Control findings.
-
-Experienced in **vulnerability research, offensive security automation, reconnaissance pipelines, and custom security tooling**, with a strong focus on Red Team operations, Active Directory exploitation, C2 infrastructure, and offensive web security.
+Recognized security researcher with **Hall of Fame acknowledgments from TU Delft and Mindtickle** for responsible disclosure of critical access-control flaws.
 
 ---
 
-## Current Focus
+## Current Focus & Core Competencies
 
-* 🔴 **Red Team Operations & Adversary Emulation**
-* 🏢 **Active Directory Security & Enterprise Attack Paths**
-* 🌐 **Web Application & API Security**
-* 🎯 **Vulnerability Research & Bug Bounty**
-* 🛰️ **Reconnaissance & Offensive Automation**
-* 🎛️ **C2 Infrastructure & Post-Exploitation**
-* ☁️ **Cloud & Enterprise Security**
+* 🤖 **AI & LLM Red Teaming** — Prompt Injection, Jailbreaking, RAG/Agent Poisoning, MITRE ATLAS
+* 🏢 **Active Directory Security** — Kerberos attacks, GPO/ACL abuse, Lateral Movement, BloodHound
+* 🌐 **Advanced Web & API Security** — White-box code audit, Source-to-Sink analysis, Logic Flaws, IDOR
+* 🛰️ **Offensive Automation** — High-performance Reconnaissance Pipelines, Custom Exploit Development
+* 🎯 **Adversary Simulation** — C2 infrastructure, Post-Exploitation, MITRE ATT&CK mapping
 
 ---
 
-## Methodology & Security Frameworks
+## 🚀 Featured Open-Source Projects
 
-* **PTES** — Penetration Testing Execution Standard
-* **OWASP Testing Guide**
-* **NIST SP 800-115**
-* **MITRE ATT&CK**
-* Manual-first penetration testing supported by custom automation
-* Attack-chain mapping from initial access to privilege escalation and lateral movement
-* Security control validation through adversary simulation
+### 🤖 LLM Red Team Lab (`llm-redteam-lab`)
+> **Adversarial testing framework for LLM applications and agentic workflows.**
+
+🔗 **Repository:** [darch244/llm-redteam-lab](https://github.com/darch244/llm-redteam-lab)
+
+* **110 Attack Probes** mapped directly to **MITRE ATLAS** (Direct/Indirect Prompt Injection, Jailbreak, System Prompt Extraction, Data Leakage)
+* **Executable Multi-Step Scenarios:** Autonomous agent web-browsing injection and RAG vector corpus poisoning
+* **Pluggable Architecture:** Connectors for OpenAI, Anthropic, local Ollama models, and a deterministic offline mock target
+* **LLM-as-a-Judge:** Heuristic and model-based scoring with standalone interactive HTML/JSON reporting
+* **Production Quality:** 68 automated unit tests, strict type-checking, and zero-credential CI integration
+
+---
+
+### 🛰️ Automated Reconnaissance Framework (`autorecon-framework`)
+> **High-performance modular reconnaissance pipeline and attack surface mapping engine.**
+
+🔗 **Repository:** [darch244/autorecon-framework](https://github.com/darch244/autorecon-framework)
+
+* **Orchestrated Recon Engine:** Integrates `subfinder`, `httpx`, `katana`, `waybackurls`, and selective `nuclei` template sweeps
+* **Async Pipeline:** Built with Python 3.11 `asyncio` for non-blocking subdomain enumeration, port probing, and URL harvesting
+* **Zero-Crash Resilience:** Graceful fallback to synthetic mock data for offline execution and CI test validation
+* **Triage Reporting:** Outputs structured JSON and executive Markdown vulnerability summaries
+
+---
+
+### 🏢 Active Directory Threat Lab (`ad-threat-lab`)
+> **Multi-VM enterprise Active Directory sandbox simulating real-world adversary attack paths.**
+
+🔗 **Repository:** [darch244/ad-threat-lab](https://github.com/darch244/ad-threat-lab)
+
+* **Attack Path Coverage:** Kerberoasting, AS-REP Roasting, NTLM Relay, Pass-the-Hash, and Unconstrained Delegation
+* **Privilege Escalation:** GPO manipulation, vulnerable Active Directory Certificate Services (ADCS), and ACL abuse
+* **Detection Validation:** Mapped to **MITRE ATT&CK** with corresponding event log IDs and remediation baselines
+
+---
+
+## 📚 Technical Research & Curated Guides
+
+* **[OSWE — Advanced Web Application Security & Exploitation Guide](https://github.com/darch244/OSWE-Study-Guide)**: A white-box first methodology guide focusing on source-to-sink code review, debugging, and custom Python exploit development.
+
+---
+
+## 🔎 Vulnerability Disclosure & Bug Bounty Recognition
+
+* 🏆 **TU Delft Hall of Fame** — Responsible disclosure of a critical Broken Access Control vulnerability
+* 🏆 **Mindtickle Hall of Fame** — Acknowledged for reporting 2 high-impact application security vulnerabilities
+* Active vulnerability researcher across **HackerOne** and **Bugcrowd** programs
 
 ---
 
 ## Technical Skills
 
-### 🔴 Penetration Testing & Red Teaming
-
-`Web Pentesting` • `Network Pentesting` • `Active Directory Pentesting` • `Red Team Operations` • `Vulnerability Assessment` • `Adversary Emulation` • `Privilege Escalation` • `Lateral Movement` • `Post-Exploitation`
-
-### 🌐 Web & API Security
-
-`OWASP Top 10` • `IDOR` • `Broken Access Control` • `SQL Injection` • `XSS` • `CSRF` • `SSRF` • `XXE` • `OAuth` • `Business Logic Flaws` • `API Security` • `GraphQL` • `Node.js`
-
-### 🏢 Active Directory & Enterprise Network Security
-
-`Kerberoasting` • `AS-REP Roasting` • `NTLM Relay` • `Pass-the-Hash` • `GPO/ACL Abuse` • `BloodHound` • `Credential Access` • `Lateral Movement` • `Active Directory` • `Windows Server` • `IAM`
-
-### 🛡️ Security Operations
-
-`SIEM` • `Splunk` • `ELK` • `Log Analysis` • `Threat Detection` • `Vulnerability Management` • `Digital Forensics` • `Risk Assessment` • `Incident Response` • `Security Troubleshooting`
-
-### ☁️ Cloud & DevSecOps
-
-`AWS EC2` • `AWS S3` • `AWS IAM` • `Docker` • `CI/CD Security` • `Cloud Security Posture Management` • `CloudTrail` • `Azure Monitor` • `Azure AD`
-
-### 🛠️ Security Tools
-
-`Burp Suite` • `Nmap` • `Nuclei` • `Metasploit` • `CrackMapExec` • `NetExec` • `Impacket` • `Responder` • `BloodHound` • `Wireshark` • `ffuf` • `httpx` • `katana` • `gobuster` • `sqlmap` • `Nikto`
-
-### 💻 Programming & Operating Systems
-
-**Programming:**
-`Python` • `Bash` • `PowerShell` • `C++` • `Java`
-
-**Operating Systems:**
-`Kali Linux` • `Ubuntu` • `Windows Server` • `Windows / Active Directory`
+| Domain | Technologies & Tooling |
+| :--- | :--- |
+| **Offensive Security & Red Team** | Adversary Emulation, Kerberos Exploitation, Lateral Movement, C2, Privilege Escalation |
+| **AI Security & Red Teaming** | MITRE ATLAS, Prompt Injection, RAG Context Poisoning, Jailbreaking, LLM-as-Judge |
+| **Web & API Security** | OWASP Top 10, White-Box Source Code Review, GraphQL, OAuth, Deserialization, SSRF |
+| **Security Tooling** | Burp Suite, BloodHound, Impacket, Responder, NetExec, httpx, nuclei, katana, Wireshark |
+| **Development & Scripting** | Python (Asyncio, Pydantic, Requests), Bash, PowerShell, C++, SQL |
+| **Operating Systems & Cloud** | Kali Linux, Ubuntu, Windows Server / Active Directory, Docker, AWS (IAM, S3, EC2) |
 
 ---
 
-# Professional Experience
+## Professional Experience & Community
 
-## 🎓 Cybersecurity Content Creator & Instructor
-
-**Hunters4o4 — Remote**
-`January 2026 – Present`
-
-Creating and delivering cybersecurity educational content covering networking, ethical hacking, and penetration testing for **2,000+ subscribers**.
-
-* Developed automated reconnaissance scripts reducing manual reconnaissance time by **70%**
-* Built and delivered hands-on **Active Directory exploitation** and web vulnerability labs
-* Produced practical content covering privilege escalation, penetration testing, and offensive security
-* Collaborated with the cybersecurity community on research and technical problem-solving initiatives
+* **Cybersecurity Content Creator & Instructor** | *Hunters4o4* `(Jan 2026 – Present)`
+  * Training 2,000+ students on networking, ethical hacking, and penetration testing.
+* **Cybersecurity Trainer & CTF Organizer** | *IEEE Cairo University* `(Sep 2025 – Jun 2026)`
+  * Mentored 50+ students in practical vulnerability labs, Linux security, and CTF challenges.
+* **IT & Network Trainee** | *Masrawy (ONA)* `(May 2025 – Jul 2025)`
+  * Enterprise network configuration, Active Directory administration, and production troubleshooting.
 
 ---
 
-## 🖥️ IT & Network Trainee
+## 🏅 Certifications & Formal Training
 
-**Masrawy (ONA) — Giza, Egypt**
-`May 2025 – July 2025`
-
-Supported enterprise IT and network infrastructure operations within a production environment.
-
-* Administered **Windows Server and Active Directory** environments
-* Worked with user management, GPOs, and authentication protocols
-* Managed enterprise **TCP/IP networking, routing, switching, subnetting, and VLAN isolation**
-* Participated in network infrastructure change-management processes
-* Assisted with network monitoring, incident-response support, and compliance documentation
-* Performed security and network troubleshooting for production infrastructure issues
+* **CompTIA Security+** | **Cisco CCNA** | **eJPTv1 & eJPTv2** | **CCEP**
+* **Advanced Training Tracks:** CRTP (Active Directory), CRTO (Red Team Ops), OSWE (Web-300), OSCP
 
 ---
 
-# 🧑‍🏫 Volunteering
+## 🎓 Education
 
-## Cybersecurity Trainer & CTF Organizer
-
-**IEEE — Cairo University**
-`September 2025 – June 2026`
-
-* Delivered cybersecurity training sessions to **50+ students**
-* Organized CTF competitions and practical security workshops
-* Designed hands-on vulnerability labs covering networking, Linux, and introductory penetration testing
-* Trained students in cybersecurity fundamentals and practical security concepts
+**Bachelor of Computer Science — Information Technology Department**  
+*Faculty of Computers and Artificial Intelligence, Cairo University* `(2022 – 2026)`
 
 ---
 
-# 🚀 Featured Projects
-
-## 🛰️ Automated Reconnaissance Framework
-
-**January 2024 – Present**
-
-Custom Python/Bash reconnaissance pipeline designed for automated asset discovery, subdomain enumeration, and attack-surface mapping.
-
-🔗 **Repository:**
-https://github.com/darch244/Recon-Framework
-
-### Highlights
-
-* Integrated `httpx`, `katana`, `nuclei`, and `waybackurls`
-* Automated large portions of the reconnaissance workflow
-* Reduced manual reconnaissance time by approximately **70%**
-* Analyzed **500+ subdomains** across multiple targets
-* Designed for bug bounty and authorized penetration-testing engagements
-
----
-
-## 🏢 Active Directory Threat Lab
-
-**May 2026 – Present**
-
-Multi-VM enterprise Active Directory sandbox designed to simulate real-world Red Team attack scenarios.
-
-🔗 **Repository:**
-https://github.com/darch244/AD-Simulation-Lab
-
-### Attack Scenarios
-
-* Kerberoasting
-* AS-REP Roasting
-* NTLM Relay
-* Pass-the-Hash
-* Credential Access
-* Lateral Movement
-* GPO / ACL abuse
-* Domain persistence
-
-### Highlights
-
-* Built a realistic multi-machine enterprise AD environment
-* Documented complete attack chains aligned with **MITRE ATT&CK**
-* Identified and remediated **15+ security misconfigurations**
-* Practiced attack-path analysis and domain privilege escalation
-
----
-
-## 🔎 Vulnerability Disclosure & Bug Bounty Research
-
-**January 2023 – Present**
-
-Active security researcher on **HackerOne and Bugcrowd**, focusing on web application vulnerabilities and access-control issues.
-
-### Research Focus
-
-* IDOR
-* Broken Access Control
-* Information Disclosure
-* Authentication & Authorization
-* Web Application Security
-* API Security
-* Business Logic vulnerabilities
-
-### Recognition
-
-🏆 **TU Delft Hall of Fame**
-Recognized for responsibly reporting a **critical Broken Access Control vulnerability**.
-
-🏆 **Mindtickle Hall of Fame**
-Recognized for reporting **2 application security vulnerabilities**.
-
-* Reported security findings to security teams across **3 organizations**
-* Followed responsible disclosure practices
-* Focused on practical vulnerability validation and impact analysis
-
----
-
-# 🏅 Certifications
-
-* **CompTIA Security+**
-* **Cisco CCNA**
-* **eJPTv1**
-* **eJPTv2**
-* **Certified Cybersecurity Educator Professional (CCEP)**
-* **TCM External Pentest Playbook**
-
----
-
-# 📚 Technical Training
-
-### Active Directory & Red Team
-
-* **CRTP — Certified Red Team Professional Training**
-
-  * Active Directory exploitation
-  * Domain enumeration
-  * Privilege escalation
-  * Enterprise attack paths
-
-* **CRTO — Certified Red Team Operator Training**
-
-  * Red Team operations
-  * C2 concepts
-  * Adversary simulation
-  * Post-exploitation
-
-### Offensive Security
-
-* **OSCP — Advanced Offensive Security Training**
-* **OSWE — OffSec Web Expert Training**
-* **OSEP — OffSec Experienced Penetration Testing Training**
-
-Training is focused on practical offensive security methodologies, exploitation, post-exploitation, web security, and enterprise attack simulation.
-
----
-
-# 🎓 Education
-
-## Bachelor of Computer Science — IT Department
-
-**Faculty of Computing and Artificial Intelligence, Cairo University**
-**Giza, Egypt**
-
-`September 2022 – September 2026`
-
-Focus areas include:
-
-* Cybersecurity
-* Information Technology
-* Networking
-* Systems Administration
-* Software Development
-* Offensive Security
-
----
-
-# 🌍 Languages
-
-| Language     | Level        |
-| ------------ | ------------ |
-| 🇪🇬 Arabic  | Native       |
-| 🇬🇧 English | Professional |
-| 🇫🇷 French  | Basic        |
-
----
-
-# 📊 Security Research Interests
-
-```text
-Active Directory
-      │
-      ├── Enumeration
-      ├── Credential Access
-      ├── Kerberoasting
-      ├── AS-REP Roasting
-      ├── NTLM Relay
-      ├── Privilege Escalation
-      ├── Lateral Movement
-      └── Persistence
-             │
-             ▼
-       Enterprise Attack Path
-             │
-             ▼
-      Adversary Simulation
-```
-
-```text
-Web Application
-      │
-      ├── Authentication
-      ├── Authorization
-      ├── Access Control
-      ├── API Security
-      ├── Business Logic
-      └── Vulnerability Research
-             │
-             ▼
-       Manual Validation
-             │
-             ▼
-       Responsible Disclosure
-```
-
----
-
-# 📫 Contact & Profiles
+## 📫 Contact & Connect
 
 * **Email:** [himadarch@gmail.com](mailto:himadarch@gmail.com)
-* **LinkedIn:** https://linkedin.com/in/mostafa-ibrahim-60b543341
-* **GitHub:** https://github.com/darch244
-* **HackerOne:** https://hackerone.com/darch244
-* **TryHackMe:** https://tryhackme.com/p/Darch244
-* **Bugcrowd:** Active Security Researcher
-
----
-
-## 🎯 Career Objective
-
-Open to opportunities in:
-
-* **Junior Red Team**
-* **Penetration Testing**
-* **Web Application Security**
-* **Active Directory Security**
-* **Security Research**
-* **Offensive Security Engineering**
+* **LinkedIn:** [Mostafa Ibrahim](https://linkedin.com/in/mostafa-ibrahim-60b543341)
+* **GitHub:** [@darch244](https://github.com/darch244)
+* **HackerOne:** [darch244](https://hackerone.com/darch244)
 
 > *“Understanding how systems break is the foundation of securing them.”*
