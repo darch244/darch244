@@ -24,7 +24,7 @@
 
 ## Professional Summary
 
-Offensive Security Engineer specializing in AI Red Teaming, Web Application Security, Active Directory exploitation, and enterprise attack simulation[cite: 3]. Active Bug Bounty researcher with Hall of Fame acknowledgments from TU Delft and Mindtickle for responsible disclosure of critical access control vulnerabilities[cite: 3]. 
+Offensive Security Engineer specializing in AI Red Teaming, Web Application Security, Active Directory exploitation, and enterprise attack simulation[cite: 3]. Active Bug Bounty researcher with Hall of Fame acknowledgments from TU Delft and Mindtickle for responsible disclosure of critical access control vulnerabilities[cite: 3].
 
 Develops offensive automation tooling, reconnaissance pipelines, and adversarial AI testing frameworks mapped to MITRE ATT&CK and MITRE ATLAS[cite: 3]. Currently expanding deep technical research into AI security aligned with OSAI principles, focusing on LLM jailbreaking, prompt injection, and agentic attack surfaces[cite: 3].
 
@@ -88,6 +88,17 @@ Multi-VM enterprise Active Directory sandbox designed to simulate real-world att
 
 ---
 
+## Technical Playbooks & Certification Syllabi Repositories
+
+* **[OSWE — Web Expert Guide](https://github.com/darch244/OSWE-Offensive-Security-Web-Expert):** Complete OSWE study guide covering advanced web application security, exploitation, white-box source code review, and custom Python PoC development[cite: 2].
+* **[OSEP — PEN-300 Guide](https://github.com/darch244/OSEP-Offensive-Security-Experienced-Penetration-Tester):** Advanced penetration testing, defense evasion, process injection, and breaching defenses preparation guide.
+* **[OSCP — PEN-200 Methodology](https://github.com/darch244/OSCP-PEN200):** Hands-on penetration testing methodology, network exploitation notes, and privilege escalation workflows.
+* **[CRTO — Red Team Operator Playbook](https://github.com/darch244/CRTO-Certified-Red-Team-Operator-study-notes):** Comprehensive adversary simulation notes, C2 infrastructure, Kerberos abuse, and post-exploitation tradecraft.
+* **[CRTP — Active Directory Notes](https://github.com/darch244/CRTP-Professional):** Complete study guide and cheat sheets for enterprise Active Directory enumeration, domain privilege escalation, and trust abuse.
+* **[Red Team Operator Playbook](https://github.com/darch244/Red-Team-Operator-Playbook):** Living Red Team methodology covering full attack chains from initial access to domain dominance based on OSCP, CRTP, and CRTO frameworks.
+
+---
+
 ## Professional Experience
 
 ### Cybersecurity Content Creator & Instructor
@@ -124,12 +135,6 @@ Hands-on lab preparation, adversary emulation, and self-study aligned with indus
 * **OSWE (WEB-300)** — Advanced Web Application Security, white-box code review, custom Python PoC development[cite: 2, 3]
 * **OSCP (PEN-200)** — Penetration Testing with Kali Linux[cite: 3]
 * **OSEP (PEN-300)** — Evasion Techniques and Breaching Defenses[cite: 3]
-
----
-
-## Technical Guides & References
-
-* **[OSWE / WEB-300 Study Guide](https://github.com/darch244/OSWE-Study-Guide)**: Curated white-box exploitation guide covering source-to-sink review and standalone Python exploit development[cite: 2].
 
 ---
 
